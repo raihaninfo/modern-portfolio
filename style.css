@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.header-bg {
+    background-color: #f3f1ef;
+}
+
+.hello-name {
+    font-size: 36px;
+}
+
+.site-logu {
+    font-size: 33px;
+    letter-spacing: 11px;
+}
+
+.expert {
+    font-size: 48px;
+}
+
+.navbar-collapse ul li {
+    padding-left: 8px;
+    padding-right: 22px;
+}
+
+.ceparetor {
+    align-items: center;
+    width: 20%;
+    border: 2px solid #110ce9;
+}
+
+.servic-icon {
+    font-size: 50px;
+    color: #110ce9;
+}
+
+.servic-box:hover,
+.servic-box:hover .servic-icon {
+    background-color: #110ce9;
+    color: #ffffff;
+}
+
+.team-image {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.socal-icon {
+    padding: 14px 14px;
+    background-color: #ebebeb;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0px 7px;
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+}
+
+.socal-icon:hover {
+    color: #ffffff;
+    background-color: #32ccfe;
+
+}
+
+.socal-icon-link {
+    color: black;
+}
+
+.footer-link {
+    display: flex;
+}
+
+.footer-link ul {
+    list-style: none;
+}
+
+.footer-link ul li {
+    display: inline-block;
+}
+
+.potfolio-link {
+    position: absolute;
+    text-align: center;
+    width: 92%;
+    height: 100%;
+    top: 0;
+    left: 15px;
+    background-color: rgba(0, 0, 255, .50);
+    visibility: hidden;
+    transition: .5s;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.main-potfolio-box {
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.main-potfolio-box:hover .potfolio-link {
+    width: 92%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.main-potfolio-box:hover .potfolio-item-images {
+    transform: rotate(180deg 20deg);
+    transition: transform 1.0s ease;
+}
+
+.link-font {
+    margin: 20%;
+    color: #fff;
+    font-size: 22px;
+}
