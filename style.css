@@ -18,7 +18,19 @@ h6 {
 }
 
 .hello-name {
-    font-size: 3rem;
+    font-size: 1.9rem;
+}
+
+@media only screen and (max-width: 430px) {
+    .expert {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .expert {
+        font-size: 1.5rem;
+    }
 }
 
 .site-logu {
@@ -27,7 +39,7 @@ h6 {
 }
 
 .expert {
-    font-size: 48px;
+    font-size: 3rem;
 }
 
 .navbar-collapse ul li {
